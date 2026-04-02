@@ -1,0 +1,87 @@
+<html>
+<head>
+    <title>Yogini Login Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            background: linear-gradient(-45deg, #fc8ec5eb, #cdfcc3, #f093fb, #f5576c);
+            background-size: 400% 400%;
+            animation: gradientMove 8s ease infinite;
+        }
+
+        @keyframes gradientMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        img {
+            width: 80px;
+            margin-bottom: 15px;
+        }
+
+        .box {
+            backdrop-filter: blur(15px);
+            background: rgba(255,255,255,0.2);
+            padding: 30px;
+            border-radius: 20px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0,0,0,0.2);
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 10px;
+            border: none;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background: #6C63FF;
+            color: white;
+            border: none;
+            border-radius: 10px;
+        }
+
+        .link {
+            margin-top: 10px;
+            display: block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<img src="brocode.png.png" width="200"
+<div class="box">
+    <h2>Login 🔐</h2>
+
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+
+    <button onclick="showMsg()">Login</button>
+
+    <span class="link">Create Account</span>
+</div>
+
+<script>
+function showMsg() {
+    alert("Welcome Yogini 🎉");
+}
+</script>
+
+</body>
+</html>
